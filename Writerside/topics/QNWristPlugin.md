@@ -8,60 +8,65 @@
 
 ## 成员变量
 
-| 名称             | 类型                           | 说明     |
-|----------------|------------------------------|--------|
-| logListener    | [](QNWristLogListener.md)    | 日志输出监听 |
-| scanListener   | [](QNWristScanListener.md)   | 设备扫描监听 |
-| statusListener | [](QNWristStatusListener.md) | 设备状态监听 |
+| 名称             | 类型                           | 说明      |
+|----------------|------------------------------|---------|
+| dataListener   | [](QNWristDataListener.md)   | 设备事件监听  |
+| eventListener  | [](QNWristEventListener.md)  | 设备事件监听  |
+| logListener    | [](QNWristLogListener.md)    | 日志输出监听  |
+| scanListener   | [](QNWristScanListener.md)   | 设备扫描监听  |
+| statusListener | [](QNWristStatusListener.md) | 设备状态监听  |
+| dataOperate    | [](DataOperate.md)           | 数据相关操作类 |
+| deviceOperate  | [](DeviceOperate.md)         | 设备相关操作类 |
 
 ## 方法
 
 ### getInstance
 
-获取一个QNWristPlugin的单例对象
+`静态方法` 获取一个QNWristPlugin的单例对象
 
-#### 参数
-
-| 名称      | 类型      | 说明  |
-|---------|---------|-----|
-| context | Context | 上下文 |
-
-#### 返回值类型
-
-`QNWristPlugin`
+<code-block lang="Kotlin">
+    fun getInstance(context: Context): QNWristPlugin
+</code-block>
 
 ### initPlugin
 
 初始化QNWristPlugin
 
+<code-block lang="Kotlin">
+    fun initPlugin(): [[[Int|StatusCode.md]]]
+</code-block>
+
 ### startScan
 
 开始扫描
+
+<code-block lang="Kotlin">
+    fun startScan(): [[[Int|StatusCode.md]]]
+</code-block>
 
 ### stopScan
 
 停止扫描
 
+<code-block lang="Kotlin">
+    fun stopScan(): [[[Int|StatusCode.md]]]
+</code-block>
+
 ### connectDevice
 
 连接设备
 
-#### 参数
-
-| 名称     | 类型                   | 说明     |
-|--------|----------------------|--------|
-| device | [](QNWristDevice.md) | 手环设备对象 |
+<code-block lang="Kotlin">
+    fun connectDevice(device: [[[QNWristDevice|QNWristDevice.md]]]): [[[Int|StatusCode.md]]]
+</code-block>
 
 ### cancelConnectDevice
 
 断开设备连接
 
-#### 参数
-
-| 名称     | 类型                   | 说明     |
-|--------|----------------------|--------|
-| device | [](QNWristDevice.md) | 手环设备对象 |
-
+<code-block lang="Kotlin">
+    fun cancelConnectDevice(device: [[[QNWristDevice|QNWristDevice.md]]]): [[[Int|StatusCode.md]]]
+</code-block>
 
 
 

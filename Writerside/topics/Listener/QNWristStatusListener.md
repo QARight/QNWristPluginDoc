@@ -27,7 +27,7 @@
 | code   | [](QNWristDevice.md) | 状态码    |
 | device | [](QNWristDevice.md) | 手环设备对象 |
 
-### onReadyInteractResult
+### onReadyInteractResult {id="onReadyInteractResult"}
 
 设备是否允许交互的回调,当code == 0时，可以开始设置交互，否则即出现了异常
 

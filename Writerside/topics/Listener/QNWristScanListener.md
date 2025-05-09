@@ -8,7 +8,8 @@
 
 ### onDiscoverDevice
 
-#### 参数
-| 名称  | 类型    | 说明 |
-|-----|-------|----|
-| device | [](QNWristDevice.md) | 手环设备对象 |
+发现设备回调
+
+<code-block lang="Kotlin">
+    fun onDiscoverDevice(device: [[[QNWristDevice|QNWristDevice.md]]])
+</code-block>
