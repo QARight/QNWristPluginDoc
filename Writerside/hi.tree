@@ -24,13 +24,21 @@
         <toc-element topic="QNWristDevice.md"/>
         <toc-element topic="SleepRecord.md"/>
         <toc-element topic="StepCountRecord.md"/>
+        <toc-element topic="UserInfo.md"/>
     </toc-element>
     <toc-element topic="Interact.md">
         <toc-element topic="DataOperate.md"/>
         <toc-element topic="DeviceOperate.md"/>
     </toc-element>
     <toc-element topic="Enum.md">
+        <toc-element topic="CalorieUnit.md"/>
+        <toc-element topic="DistUnit.md"/>
+        <toc-element topic="Gender.md"/>
+        <toc-element topic="HeightUnit.md"/>
+        <toc-element topic="Language.md"/>
         <toc-element topic="RecordType.md"/>
+        <toc-element topic="TemperatureUnit.md"/>
+        <toc-element topic="WeightUnit.md"/>
     </toc-element>
     <toc-element topic="Other.md">
         <toc-element topic="StatusCode.md"/>

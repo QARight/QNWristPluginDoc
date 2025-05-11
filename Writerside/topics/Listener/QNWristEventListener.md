@@ -21,3 +21,11 @@
 <code-block lang="Kotlin">
     fun onUnbindResult(code: [[[Int|StatusCode.md]]], device: [[[QNWristDevice|QNWristDevice.md]]])
 </code-block>
+
+### onFactoryResetResult
+
+恢复出厂设置
+
+<code-block lang="Kotlin">
+    fun onFactoryResetResult(code: [[[Int|StatusCode.md]]], device: [[[QNWristDevice|QNWristDevice.md]]])
+</code-block>
