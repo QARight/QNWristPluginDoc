@@ -16,6 +16,7 @@
     </toc-element>
     <toc-element topic="Model.md">
         <toc-element topic="ActivityRecord.md"/>
+        <toc-element topic="AlarmModel.md"/>
         <toc-element topic="BaseRecord.md"/>
         <toc-element topic="BloodOxygenRecord.md"/>
         <toc-element topic="HeartRateRecord.md"/>
@@ -38,6 +39,7 @@
         <toc-element topic="Language.md"/>
         <toc-element topic="RecordType.md"/>
         <toc-element topic="TemperatureUnit.md"/>
+        <toc-element topic="Week.md"/>
         <toc-element topic="WeightUnit.md"/>
     </toc-element>
     <toc-element topic="Other.md">
