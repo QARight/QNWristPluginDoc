@@ -38,6 +38,94 @@
     fun factoryReset()
 </code-block>
 
+### setAlarm
+
+设置闹钟
+
+<code-block lang="Kotlin">
+    fun setAlarm(model: [[[AlarmModel|AlarmModel.md]]])
+</code-block>
+
+### setHeartRateMode
+
+设置心率模式
+
+<code-block lang="Kotlin">
+    fun setHeartRateMode(model: [[[HeartRateModeParamModel|HeartRateModeParamModel.md]]])
+</code-block>
+
+### setStressSwitch
+
+设置压力开关
+
+<code-block lang="Kotlin">
+    fun setStressSwitch(model: [[[StressSwitchParamModel|StressSwitchParamModel.md]]])
+</code-block>
+
+### setRespirationRateTurn
+
+设置呼吸频率开关
+
+<code-block lang="Kotlin">
+    fun setRespirationRateTurn(open: Boolean)
+</code-block>
+
+### setSpo2Switch
+
+设置血氧开关
+
+<code-block lang="Kotlin">
+    fun setSpo2Switch(model: [[[Spo2SwitchParamModel|Spo2SwitchParamModel.md]]])
+</code-block>
+
+### setDrinkWaterRemind
+
+设置喝水提醒
+
+<code-block lang="Kotlin">
+    fun setDrinkWaterRemind(model: [[[DrinkWaterRemindModel|DrinkWaterRemindModel.md]]])
+</code-block>
+
+### setHandWashingReminder
+
+设置洗手提醒
+
+<code-block lang="Kotlin">
+    fun setHandWashingReminder(model: [[[HandWashingReminderParamModel|HandWashingReminderParamModel.md]]])
+</code-block>
+
+### setWalkRemind
+
+设置走动提醒
+
+<code-block lang="Kotlin">
+    fun setWalkRemind(model: [[[WalkRemindModel|WalkRemindModel.md]]])
+</code-block>
+
+### setMenstruation
+
+设置经期
+
+<code-block lang="Kotlin">
+    fun setMenstruation(model: [[[MenstruationModel|MenstruationModel.md]]])
+</code-block>
+
+### setScientificSleepSwitch
+
+设置科学睡眠开关
+
+<code-block lang="Kotlin">
+    fun setScientificSleepSwitch(model: [[[ScientificSleepSwitchParamModel|ScientificSleepSwitchParamModel.md]]])
+</code-block>
+
+### setActivitySwitch
+
+设置运动模式识别开关
+
+<code-block lang="Kotlin">
+    fun setActivitySwitch(model: [[[ActivitySwitchParamModel|ActivitySwitchParamModel.md]]])
+</code-block>
+
 ### todo hyr
 
 封装过程中发现如果全部套壳工程太过庞大
@@ -63,6 +151,7 @@
 - 勿扰模式设置
 - 智能运动识别设置
 - 运动类型设置和获取
+- 所有开关的获取
 - 寻找手表
 - 寻找手机
 - 天气设置
