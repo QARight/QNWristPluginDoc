@@ -7,31 +7,34 @@
                   start-page="QNWristPlugin.md">
     <toc-element topic="QNWristPlugin.md">
     </toc-element>
-    <toc-element topic="Listener.md">
+    <toc-element toc-title="监听器">
         <toc-element topic="QNWristDataListener.md"/>
         <toc-element topic="QNWristEventListener.md"/>
         <toc-element topic="QNWristLogListener.md"/>
         <toc-element topic="QNWristScanListener.md"/>
         <toc-element topic="QNWristStatusListener.md"/>
     </toc-element>
-    <toc-element topic="Model.md">
-        <toc-element topic="ActivityRecord.md"/>
+    <toc-element toc-title="模型">
+        <toc-element toc-title="Record">
+            <toc-element topic="ActivityRecord.md"/>
+            <toc-element topic="BaseRecord.md"/>
+            <toc-element topic="BloodOxygenRecord.md"/>
+            <toc-element topic="HeartRateRecord.md"/>
+            <toc-element topic="HeartRateVariabilityRecord.md"/>
+            <toc-element topic="PressureRecord.md"/>
+            <toc-element topic="SleepRecord.md"/>
+            <toc-element topic="StepCountRecord.md"/>
+        </toc-element>
         <toc-element topic="AlarmModel.md"/>
-        <toc-element topic="BaseRecord.md"/>
-        <toc-element topic="BloodOxygenRecord.md"/>
-        <toc-element topic="HeartRateRecord.md"/>
-        <toc-element topic="HeartRateVariabilityRecord.md"/>
-        <toc-element topic="PressureRecord.md"/>
         <toc-element topic="QNWristDevice.md"/>
-        <toc-element topic="SleepRecord.md"/>
-        <toc-element topic="StepCountRecord.md"/>
+        <toc-element topic="InvokeResponse.md"/>
         <toc-element topic="UserInfo.md"/>
     </toc-element>
     <toc-element topic="Interact.md">
         <toc-element topic="DataOperate.md"/>
         <toc-element topic="DeviceOperate.md"/>
     </toc-element>
-    <toc-element topic="Enum.md">
+    <toc-element toc-title="枚举">
         <toc-element topic="CalorieUnit.md"/>
         <toc-element topic="DistUnit.md"/>
         <toc-element topic="Gender.md"/>
@@ -42,7 +45,7 @@
         <toc-element topic="Week.md"/>
         <toc-element topic="WeightUnit.md"/>
     </toc-element>
-    <toc-element topic="Other.md">
+    <toc-element toc-title="附表">
         <toc-element topic="StatusCode.md"/>
     </toc-element>
 </instance-profile>

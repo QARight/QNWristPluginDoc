@@ -1,6 +1,6 @@
 <show-structure depth="2"/>
 
-# QNWristScanListener
+# QNWristStatusListener
 
 > 设备状态监听器
 

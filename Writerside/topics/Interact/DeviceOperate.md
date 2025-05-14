@@ -11,7 +11,7 @@
 绑定设备
 
 <code-block lang="Kotlin">
-    fun bind(): [[[Int|StatusCode.md]]]
+    fun bind()
 </code-block>
 
 ### unbind
@@ -19,7 +19,7 @@
 解绑设备
 
 <code-block lang="Kotlin">
-    fun unbind(): [[[Int|StatusCode.md]]]
+    fun unbind()
 </code-block>
 
 ### setUserInfo
@@ -27,7 +27,7 @@
 设置用户信息
 
 <code-block lang="Kotlin">
-    fun setUserInfo(userInfo: [[[UserInfo|UserInfo.md]]]): [[[Int|StatusCode.md]]]
+    fun setUserInfo(userInfo: [[[UserInfo|UserInfo.md]]])
 </code-block>
 
 ### factoryReset
@@ -35,15 +35,17 @@
 恢复出厂设置
 
 <code-block lang="Kotlin">
-    fun factoryReset(): [[[Int|StatusCode.md]]]
+    fun factoryReset()
 </code-block>
 
 ### todo hyr
+
 封装过程中发现如果全部套壳工程太过庞大
 
 以下的设置打算简化回调，即
+
 1. 不二次封装IDO的数据模型
-2. 不回调设置结果
+2. ~~不回调设置结果~~
 3. 不提供功能是否支持查询（即内部自行判断功能表，不对外暴露相关的内容）
 
 需先确定再决定是否如此做
