@@ -4,7 +4,7 @@
 
 # QNWristPlugin
 
-> 手环插件管理类
+> 手环插件管理类 `单例对象`
 
 ## 成员变量
 
@@ -20,20 +20,12 @@
 
 ## 方法
 
-### getInstance
-
-`静态方法` 获取一个QNWristPlugin的单例对象
-
-<code-block lang="Kotlin">
-    fun getInstance(context: Context): QNWristPlugin
-</code-block>
-
 ### initPlugin
 
 初始化QNWristPlugin
 
 <code-block lang="Kotlin">
-    fun initPlugin(): [[[Int|StatusCode.md]]]
+    fun initPlugin(context: Context): [[[Int|StatusCode.md]]]
 </code-block>
 
 ### startScan
@@ -49,7 +41,7 @@
 停止扫描
 
 <code-block lang="Kotlin">
-    fun stopScan(): [[[Int|StatusCode.md]]]
+    fun stopScan()
 </code-block>
 
 ### connectDevice
@@ -65,7 +57,7 @@
 断开设备连接
 
 <code-block lang="Kotlin">
-    fun cancelConnectDevice(device: [[[QNWristDevice|QNWristDevice.md]]]): [[[Int|StatusCode.md]]]
+    fun cancelConnectDevice(device: [[[QNWristDevice|QNWristDevice.md]]])
 </code-block>
 
 

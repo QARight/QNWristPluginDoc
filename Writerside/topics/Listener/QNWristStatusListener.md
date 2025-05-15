@@ -14,12 +14,12 @@
     fun onConnected(device: [[[QNWristDevice|QNWristDevice.md]]])
 </code-block>
 
-### onConnectFailed
+### onConnectFail
 
 设备连接失败
 
 <code-block lang="Kotlin">
-    fun onConnectFailed(code: [[[Int|StatusCode.md]]], device: [[[QNWristDevice|QNWristDevice.md]]])
+    fun onConnectFail(device: [[[QNWristDevice|QNWristDevice.md]]])
 </code-block>
 
 ### onReadyInteractResult {id="onReadyInteractResult"}
