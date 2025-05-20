@@ -26,8 +26,8 @@
         year: Int,
         month: Int,
         day: Int,
-        height: Int,
-        weight: Int,
+        height: Double,
+        weight: Double,
         gender: [[[Gender|Gender.md]]]
     ): UserInfo
 </code-block>

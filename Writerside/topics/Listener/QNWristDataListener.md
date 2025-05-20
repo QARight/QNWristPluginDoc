@@ -31,7 +31,7 @@
 - 同步出错时也会回调此方法，此时response的code非0
 
 <code-block lang="Kotlin">
-    fun onSyncRecordCompleted(progress: Int, result: Boolean, response: [[[InvokeResponse|InvokeResponse.md]]])
+    fun onSyncRecordCompleted(result: Boolean, response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
 
