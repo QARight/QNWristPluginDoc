@@ -17,6 +17,8 @@
 | statusListener | [](QNWristStatusListener.md) | 设备状态监听  |
 | dataOperate    | [](DataOperate.md)           | 数据相关操作类 |
 | deviceOperate  | [](DeviceOperate.md)         | 设备相关操作类 |
+| getOperate     | [](GetOperate.md)            | 获取指令操作类 |
+| setOperate     | [](SetOperate.md)            | 设置指令操作类 |
 
 ## 方法
 

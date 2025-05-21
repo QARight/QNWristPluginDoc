@@ -66,12 +66,28 @@
     fun onSetAlarmResult(response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
+### onGetHeartRateModeResult
+
+获取心率模式结果回调
+
+<code-block lang="Kotlin">
+    fun onGetHeartRateModeResult(model: [[[HeartRateModeModel?|HeartRateModeModel.md]]], response: [[[InvokeResponse|InvokeResponse.md]]])
+</code-block>
+
 ### onSetHeartRateModeResult
 
 设置心率模式结果回调
 
 <code-block lang="Kotlin">
     fun onSetHeartRateModeResult(response: [[[InvokeResponse|InvokeResponse.md]]])
+</code-block>
+
+### onGetStressSwitchResult
+
+获取压力开关结果回调
+
+<code-block lang="Kotlin">
+    fun onGetStressSwitchResult(model: [[[StressSwitchModel?|StressSwitchModel.md]]], response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
 ### onSetStressSwitchResult
@@ -88,6 +104,14 @@
 
 <code-block lang="Kotlin">
     fun onSetRespirationRateTurnResult(response: [[[InvokeResponse|InvokeResponse.md]]])
+</code-block>
+
+### onGetSpo2SwitchResult
+
+获取血氧开关结果回调
+
+<code-block lang="Kotlin">
+    fun onGetSpo2SwitchResult(model: [[[Spo2SwitchModel?|Spo2SwitchModel.md]]], response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
 ### onSetSpo2SwitchResult
@@ -114,6 +138,14 @@
     fun onSetHandWashingReminderResult(response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
+### onGetWalkRemindResult
+
+获取走动提醒结果回调
+
+<code-block lang="Kotlin">
+    fun onGetWalkRemindResult(model: [[[WalkRemindModel?|WalkRemindModel.md]]], response: [[[InvokeResponse|InvokeResponse.md]]])
+</code-block>
+
 ### onSetWalkRemindResult
 
 设置走动提醒结果回调
@@ -136,6 +168,14 @@
 
 <code-block lang="Kotlin">
     fun onSetScientificSleepSwitchResult(response: [[[InvokeResponse|InvokeResponse.md]]])
+</code-block>
+
+### onGetActivitySwitchResult
+
+获取运动模式识别开关结果回调
+
+<code-block lang="Kotlin">
+    fun onGetActivitySwitchResult(model: [[[ActivitySwitchModel?|ActivitySwitchModel.md]]], response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
 ### onSetActivitySwitchResult

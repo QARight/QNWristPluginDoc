@@ -1,6 +1,6 @@
 <show-structure depth="2"/>
 
-# HeartRateModeParamModel
+# HeartRateModeModel
 
 > 心率模式模型
 

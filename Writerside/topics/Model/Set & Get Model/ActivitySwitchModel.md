@@ -1,6 +1,6 @@
 <show-structure depth="2"/>
 
-# ActivitySwitchParamModel
+# ActivitySwitchModel
 
 > 运动模式识别开关模型
 

@@ -1,6 +1,6 @@
 <show-structure depth="2"/>
 
-# HandWashingReminderParamModel
+# HandWashingReminderModel
 
 > 洗手提醒模型
 

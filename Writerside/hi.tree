@@ -26,15 +26,15 @@
             <toc-element topic="StepCountRecord.md"/>
         </toc-element>
         <toc-element toc-title="Set &amp; Get Model">
-            <toc-element topic="ActivitySwitchParamModel.md"/>
+            <toc-element topic="ActivitySwitchModel.md"/>
             <toc-element topic="AlarmModel.md"/>
             <toc-element topic="DrinkWaterRemindModel.md"/>
-            <toc-element topic="HandWashingReminderParamModel.md"/>
-            <toc-element topic="HeartRateModeParamModel.md"/>
+            <toc-element topic="HandWashingReminderModel.md"/>
+            <toc-element topic="HeartRateModeModel.md"/>
             <toc-element topic="MenstruationModel.md"/>
-            <toc-element topic="ScientificSleepSwitchParamModel.md"/>
-            <toc-element topic="Spo2SwitchParamModel.md"/>
-            <toc-element topic="StressSwitchParamModel.md"/>
+            <toc-element topic="ScientificSleepSwitchModel.md"/>
+            <toc-element topic="Spo2SwitchModel.md"/>
+            <toc-element topic="StressSwitchModel.md"/>
             <toc-element topic="UserInfo.md"/>
             <toc-element topic="WalkRemindModel.md"/>
         </toc-element>
@@ -44,6 +44,8 @@
     <toc-element topic="Interact.md">
         <toc-element topic="DataOperate.md"/>
         <toc-element topic="DeviceOperate.md"/>
+        <toc-element topic="GetOperate.md"/>
+        <toc-element topic="SetOperate.md"/>
     </toc-element>
     <toc-element toc-title="枚举">
         <toc-element topic="CalorieUnit.md"/>

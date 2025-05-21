@@ -1,6 +1,6 @@
 <show-structure depth="2"/>
 
-# ScientificSleepSwitchParamModel
+# ScientificSleepSwitchModel
 
 > 走动提醒模型
 
