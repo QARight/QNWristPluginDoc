@@ -35,7 +35,7 @@
 设置压力开关
 
 <code-block lang="Kotlin">
-    fun setStressSwitch(model: [[[StressSwitchParamModel|StressSwitchParamModel.md]]])
+    fun setStressSwitch(model: [[[StressSwitchModel|StressSwitchModel.md]]])
 </code-block>
 
 ### setRespirationRateTurn
@@ -51,7 +51,7 @@
 设置血氧开关
 
 <code-block lang="Kotlin">
-    fun setSpo2Switch(model: [[[Spo2SwitchParamModel|Spo2SwitchParamModel.md]]])
+    fun setSpo2Switch(model: [[[Spo2SwitchModel|Spo2SwitchModel.md]]])
 </code-block>
 
 ### setDrinkWaterRemind
@@ -91,7 +91,7 @@
 设置科学睡眠开关
 
 <code-block lang="Kotlin">
-    fun setScientificSleepSwitch(model: [[[ScientificSleepSwitchParamModel|ScientificSleepSwitchParamModel.md]]])
+    fun setScientificSleepSwitch(model: [[[ScientificSleepSwitchModel|ScientificSleepSwitchModel.md]]])
 </code-block>
 
 ### setActivitySwitch
