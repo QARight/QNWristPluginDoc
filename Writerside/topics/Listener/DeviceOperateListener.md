@@ -89,3 +89,11 @@
 <code-block lang="Kotlin">
     fun onMusicStopResult(response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
+
+### onSendNoticeResult
+
+发送消息提醒结果回调
+
+<code-block lang="Kotlin">
+    fun onSendNoticeResult(response: [[[InvokeResponse|InvokeResponse.md]]])
+</code-block>

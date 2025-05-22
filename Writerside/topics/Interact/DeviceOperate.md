@@ -70,7 +70,13 @@
     fun musicStop()
 </code-block>
 
-### todo hyr
+### sendNotice
 
-- 通知消息功能
-- 蓝牙通话
+发送消息提醒
+
+<code-block lang="Kotlin">
+    fun sendNotice(model: IDONoticeMessageParamModel)
+</code-block>
+
+## todo hyr
+- 实时数据交换
