@@ -8,17 +8,19 @@
 
 ## 成员变量
 
-| 名称             | 类型                           | 说明      |
-|----------------|------------------------------|---------|
-| dataListener   | [](QNWristDataListener.md)   | 设备事件监听  |
-| eventListener  | [](QNWristEventListener.md)  | 设备事件监听  |
-| logListener    | [](QNWristLogListener.md)    | 日志输出监听  |
-| scanListener   | [](QNWristScanListener.md)   | 设备扫描监听  |
-| statusListener | [](QNWristStatusListener.md) | 设备状态监听  |
-| dataOperate    | [](DataOperate.md)           | 数据相关操作类 |
-| deviceOperate  | [](DeviceOperate.md)         | 设备相关操作类 |
-| getOperate     | [](GetOperate.md)            | 获取指令操作类 |
-| setOperate     | [](SetOperate.md)            | 设置指令操作类 |
+| 名称                    | 类型                           | 说明         |
+|-----------------------|------------------------------|------------|
+| logListener           | [](QNWristLogListener.md)    | 日志输出监听     |
+| scanListener          | [](QNWristScanListener.md)   | 设备扫描监听     |
+| statusListener        | [](QNWristStatusListener.md) | 设备状态监听     |
+| dataOperateListener   | [](DataOperateListener.md)   | 数据相关操作结果监听 |
+| deviceOperateListener | [](DeviceOperateListener.md) | 设备相关操作结果监听 |
+| getOperateListener    | [](GetOperateListener.md)    | 获取指令操作结果监听 |
+| setOperateListener    | [](SetOperateListener.md)    | 设置指令操作结果监听 |
+| dataOperate           | [](DataOperate.md)           | 数据相关操作类    |
+| deviceOperate         | [](DeviceOperate.md)         | 设备相关操作类    |
+| getOperate            | [](GetOperate.md)            | 获取指令操作类    |
+| setOperate            | [](SetOperate.md)            | 设置指令操作类    |
 
 ## 方法
 

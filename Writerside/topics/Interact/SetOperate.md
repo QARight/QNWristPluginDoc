@@ -101,3 +101,35 @@
 <code-block lang="Kotlin">
     fun setActivitySwitch(model: [[[ActivitySwitchModel|ActivitySwitchModel.md]]])
 </code-block>
+
+### setNotDisturb
+
+设置勿扰模式
+
+<code-block lang="Kotlin">
+    fun setNotDisturb(model: [[[NotDisturbModel|NotDisturbModel.md]]])
+</code-block>
+
+### setSportSortV3
+
+设置运动类型排序
+
+<code-block lang="Kotlin">
+    fun setNotDisturb(model: IDOSportParamModel)
+</code-block>
+
+### setWeatherData
+
+设置天气
+
+<code-block lang="Kotlin">
+    fun setNotDisturb(model: IDOWeatherDataParamModel)
+</code-block>
+
+### setFindPhoneSwitch
+
+设置寻找手机开关
+
+<code-block lang="Kotlin">
+    fun setFindPhoneSwitch(open: Boolean)
+</code-block>

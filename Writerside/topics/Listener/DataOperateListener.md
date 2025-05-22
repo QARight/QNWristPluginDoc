@@ -1,8 +1,8 @@
 <show-structure depth="2"/>
 
-# QNWristDataListener
+# DataOperateListener
 
-> 设备数据监听器
+> 数据相关操作结果监听
 
 ## 方法
 

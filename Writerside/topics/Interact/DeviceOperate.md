@@ -30,13 +30,48 @@
     fun factoryReset()
 </code-block>
 
+### findDeviceStart
+
+控制寻找设备开始
+
+<code-block lang="Kotlin">
+    fun findDeviceStart()
+</code-block>
+
+### findDeviceStop
+
+控制寻找设备结束
+
+<code-block lang="Kotlin">
+    fun findDeviceStop()
+</code-block>
+
+### overFindPhone
+
+控制设备停止寻找手机
+
+<code-block lang="Kotlin">
+    fun overFindPhone()
+</code-block>
+
+### musicStart
+
+控制音乐开始
+
+<code-block lang="Kotlin">
+    fun musicStart()
+</code-block>
+
+### musicStop
+
+控制音乐停止
+
+<code-block lang="Kotlin">
+    fun musicStop()
+</code-block>
+
 ### todo hyr
-- 勿扰模式设置
-- 运动类型设置和获取
-- 所有开关的获取
-- 寻找手表
-- 寻找手机
-- 天气设置
-- 音乐控制
+
 - 手表通知app
 - APP 向手表发送信息
+- 蓝牙通话

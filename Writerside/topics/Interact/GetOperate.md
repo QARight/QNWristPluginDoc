@@ -45,3 +45,19 @@
 <code-block lang="Kotlin">
     fun getActivitySwitch()
 </code-block>
+
+### getAllHealthSwitchState
+
+获取所有的健康监测开关
+
+<code-block lang="Kotlin">
+    fun getAllHealthSwitchState()
+</code-block>
+
+### getDefaultSportType
+
+获取默认的运动类型
+
+<code-block lang="Kotlin">
+    fun getDefaultSportType()
+</code-block>
