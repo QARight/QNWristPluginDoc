@@ -1,7 +1,7 @@
 # 状态码
 
 > 如果某个方法下有特别说明其使用的状态码，则以其为准
-> <br>如 [绑定结果回调](QNWristEventListener.md#onBindResult)
+> <br>如 [绑定结果回调](DeviceOperateListener.md#onBindResult)
 
 ## 基础公共事件
 
