@@ -115,7 +115,7 @@
 设置运动类型排序
 
 <code-block lang="Kotlin">
-    fun setNotDisturb(model: IDOSportParamModel)
+    fun setSportSortV3(model: IDOSportParamModel)
 </code-block>
 
 ### setWeatherData
@@ -123,7 +123,7 @@
 设置天气
 
 <code-block lang="Kotlin">
-    fun setNotDisturb(model: IDOWeatherDataParamModel)
+    fun setWeatherData(model: IDOWeatherDataParamModel)
 </code-block>
 
 ### setFindPhoneSwitch

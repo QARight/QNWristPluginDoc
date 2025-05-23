@@ -68,7 +68,7 @@
 
 ### onOverFindPhoneResult
 
-控制设备停止寻找手机结果回调
+停止寻找手机结果回调
 
 <code-block lang="Kotlin">
     fun onOverFindPhoneResult(response: [[[InvokeResponse|InvokeResponse.md]]])

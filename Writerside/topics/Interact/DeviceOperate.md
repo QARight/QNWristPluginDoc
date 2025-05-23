@@ -32,7 +32,7 @@
 
 ### findDeviceStart
 
-控制寻找设备开始
+控制寻找手环开始
 
 <code-block lang="Kotlin">
     fun findDeviceStart()
@@ -40,7 +40,7 @@
 
 ### findDeviceStop
 
-控制寻找设备结束
+控制寻找手环结束
 
 <code-block lang="Kotlin">
     fun findDeviceStop()
@@ -48,7 +48,7 @@
 
 ### overFindPhone
 
-控制设备停止寻找手机
+停止寻找手机
 
 <code-block lang="Kotlin">
     fun overFindPhone()
