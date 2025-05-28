@@ -70,12 +70,12 @@
     fun setHandWashingReminder(model: [[[HandWashingReminderModel|HandWashingReminderModel.md]]])
 </code-block>
 
-### setWalkRemind
+### setWalkReminder
 
 设置走动提醒
 
 <code-block lang="Kotlin">
-    fun setWalkRemind(model: [[[WalkRemindModel|WalkRemindModel.md]]])
+    fun setWalkReminder(model: [[[WalkRemindModel|WalkRemindModel.md]]])
 </code-block>
 
 ### setMenstruation

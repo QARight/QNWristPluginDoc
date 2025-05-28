@@ -54,10 +54,10 @@
     fun onGetAllHealthSwitchStateResult(model: [[[AllHealthSwitchStateModel?|AllHealthSwitchStateModel.md]]], response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>
 
-### onGetDefaultSportTypeResult
+### onGetSportTypeV3Result
 
 获取默认的运动类型结果回调
 
 <code-block lang="Kotlin">
-    fun onGetDefaultSportTypeResult(model: IDOAllHealthSwitchStateModel?, response: [[[InvokeResponse|InvokeResponse.md]]])
+    fun onGetSportTypeV3Result(model: IDOAllHealthSwitchStateModel?, response: [[[InvokeResponse|InvokeResponse.md]]])
 </code-block>

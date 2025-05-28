@@ -54,10 +54,10 @@
     fun getAllHealthSwitchState()
 </code-block>
 
-### getDefaultSportType
+### getSportTypeV3
 
 获取默认的运动类型
 
 <code-block lang="Kotlin">
-    fun getDefaultSportType()
+    fun getSportTypeV3()
 </code-block>
